@@ -16,7 +16,7 @@ def draw():
     chord(550, 162, 0)
     chord(650, 143, 0)
     chord(750, 134, 0)
-    button(110, 300)
+    button(110, 300, I)
     button(210, 300) 
     button(310, 300) 
     button(410, 300) 

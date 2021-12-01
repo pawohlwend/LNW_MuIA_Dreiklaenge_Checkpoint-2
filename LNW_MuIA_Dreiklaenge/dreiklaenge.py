@@ -16,10 +16,10 @@ def chord(xPos, yPos, hilfslinie):
     #ellipse(xPos, yPos + 36, 20, 18)
   
 
-def button(xPos, yPos): 
+def button(xPos, yPos, Titel): 
     noFill()
     strokeWeight(2)
     rect(xPos, yPos, 80, 80) 
     textSize(20) 
-    text("button", xPos + 10, yPos + 40) 
+    text(Titel, xPos + 10, yPos + 40) 
     fill(255, 0, 0) 
