@@ -1,4 +1,3 @@
-Hallo selber
 a = 110
 b = 300 
 
