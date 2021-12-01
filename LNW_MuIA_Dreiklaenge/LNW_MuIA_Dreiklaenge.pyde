@@ -16,13 +16,13 @@ def draw():
     chord(550, 162, 0)
     chord(650, 143, 0)
     chord(750, 134, 0)
-    button(110, 300, I)
-    button(210, 300) 
-    button(310, 300) 
-    button(410, 300) 
-    button(510, 300) 
-    button(610, 300) 
-    button(710, 300) 
+    button(110, 300, "I")
+    button(210, 300, "II") 
+    button(310, 300, "III") 
+    button(410, 300, "IV") 
+    button(510, 300, "V") 
+    button(610, 300, "VI") 
+    button(710, 300, "VII") 
     
     #Button1 
     if mouseX >= a and mouseX <= a + 80 and mouseY >= b and mouseY <= b + 80 and mousePressed == True:
@@ -31,7 +31,7 @@ def draw():
         
     else:
         noFill() 
-        button (110, 300) 
+        button (110, 300, "I") 
         
     #Button2 
     if mouseX >= 210 and mouseX <= 210 + 80 and mouseY >= 300 and mouseY <= 300 + 80 and mousePressed == True:
@@ -40,7 +40,7 @@ def draw():
         
     else:
         noFill() 
-        button (210, 300) 
+        button (210, 300, "I") 
     
     #Button3 
     if mouseX >= 310 and mouseX <= 310 + 80 and mouseY >= 300 and mouseY <= 300 + 80 and mousePressed == True:
@@ -49,5 +49,5 @@ def draw():
         
     else:
         noFill() 
-        button(310, 300) 
+        button(310, 300, "I") 
          
