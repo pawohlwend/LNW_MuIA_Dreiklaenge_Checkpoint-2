@@ -2,7 +2,6 @@ a = 110
 b = 300 
 
 from dreiklaenge import chord
-from dreiklaenge import chord2
 from dreiklaenge import button 
 def setup(): 
      size (1100,500)
@@ -12,10 +11,11 @@ def setup():
 def draw(): 
     image(loadImage("notenlinien.png"), 0, 101, 1048,160)
 
-    chord(450, 171)
-    chord(550, 162)
-    chord(650, 143)
-    chord(750, 134)
+    chord(50, 50, 0)
+    chord(450, 171, 0)
+    chord(550, 162, 0)
+    chord(650, 143, 0)
+    chord(750, 134, 0)
     button(110, 300)
     button(210, 300) 
     button(310, 300) 
