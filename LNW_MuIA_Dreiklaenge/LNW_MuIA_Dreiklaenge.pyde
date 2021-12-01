@@ -12,7 +12,7 @@ def setup():
 def draw(): 
     image(loadImage("notenlinien.png"), 0, 101, 1048,160)
 
-    chord(150, 171)
+    chord(450, 171)
     chord(550, 162)
     chord(650, 143)
     chord(750, 134)
