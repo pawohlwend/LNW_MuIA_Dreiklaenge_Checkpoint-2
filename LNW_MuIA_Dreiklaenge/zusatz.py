@@ -147,7 +147,7 @@ def screen_gdur(xPos, yPos):
 
 def screen_fdur(xPos, yPos):
     
-       #image(loadImage("flat.png"), 90, 159, 13,26) 
+       image(loadImage("flat.png"), 90, 159, 13,26) 
        button(110, 300, "I")
        button(210, 300, "II") 
        button(310, 300, "III") 
