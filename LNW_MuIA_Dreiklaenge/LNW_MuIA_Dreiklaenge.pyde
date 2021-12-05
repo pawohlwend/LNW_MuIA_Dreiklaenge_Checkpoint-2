@@ -11,7 +11,6 @@ def setup():
 def draw(): 
     image(loadImage("notenlinien.png"), 0, 101, 1048,160)
 
-    chord(50, 50, 0)
     chord(450, 171, 0)
     chord(550, 162, 0)
     chord(650, 143, 0)
@@ -27,7 +26,7 @@ def draw():
     #Button1 
     if mouseX >= a and mouseX <= a + 80 and mouseY >= b and mouseY <= b + 80 and mousePressed == True:
         fill(255, 0, 0)
-        chord2(150, 198)
+        chord(150, 198, 1)
         
     else:
         noFill() 
@@ -36,7 +35,7 @@ def draw():
     #Button2 
     if mouseX >= 210 and mouseX <= 210 + 80 and mouseY >= 300 and mouseY <= 300 + 80 and mousePressed == True:
         fill(255, 0, 0)
-        chord(250, 189)
+        chord(250, 189, 0)
         
     else:
         noFill() 
@@ -45,7 +44,7 @@ def draw():
     #Button3 
     if mouseX >= 310 and mouseX <= 310 + 80 and mouseY >= 300 and mouseY <= 300 + 80 and mousePressed == True:
         fill(255, 0, 0)
-        chord(350, 180)
+        chord(350, 180, 0)
         
     else:
         noFill() 
